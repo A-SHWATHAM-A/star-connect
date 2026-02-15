@@ -1,0 +1,1774 @@
+.india-home-banner{
+                        display:flex !important;
+                    }
+                         .india-home-banner svg{
+                        max-width:100% !important;
+                    }
+                         .other-country-home-banner{
+                        display:none !important;
+                    }
+.anytime-menu .icon {
+        display: block;
+        margin: 0 auto;
+        border: none;
+        background: #fff;
+        border-radius: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 84px;
+        height: 84px;
+        box-shadow: 0 0 5px 0px #de737e;
+        position:relative;
+    }
+    .anytime-menu .icon:hover > svg.chsvg, .anytime-menu .icon:hover > svg.chsvg circle, .anytime-menu .icon:hover > svg.chsvg path {
+        fill: #ffffff00;
+        stroke: #fff;
+    }
+    .new-text-badge {
+        background: #5BBE2A;
+        width: 44px;
+        display: block;
+        font-size: 12px;
+        border-radius: 10px;
+        color: #fff;
+        position: absolute;
+        bottom: -6px;
+    }
+    }
+    @media(max-width:1480px)
+    {
+        .anytime-menu .icon svg {
+            width: 50px;
+            height: 50px;
+        }
+        .anytime-menu .icon{
+            width:70px;
+            height:70px;
+        }
+        .anytime-menu {
+            padding-top: 10px !important;
+            padding-bottom: 10px !important;
+        }
+    }
+
+    @media(max-width:575px) {
+        .anytime-menu {
+            max-height: 115px;
+        }
+    }
+
+ 
+    .ripple-effect {
+        -webkit-animation: ripple 0.7s linear infinite;
+        animation: ripple2 0.9s linear infinite;
+    }
+
+
+    @keyframes ripple2 {
+        0% {
+        box-shadow: 0 0 0 0 rgba(238,78,94,0.3), 0 0 0 1px rgba(238,78,94,0.3), 0 0 0 10px rgba(238,78,94,0.3);
+    }
+
+    100% {
+        box-shadow: 0 0 0 10px rgba(238,78,94,0.3), 0 0 0 1px rgba(238,78,94,0.3), 0 0 0 10px rgba(238,78,94,0);
+    }
+}
+@media (max-width: 1480px) {
+        .anytime-menu
+
+    {
+        padding-top: 0px !important;
+        padding-bottom: 0px !important;
+    }
+
+       }
+    /*.anytime-menu .icon:hover > svg.chsvg circle {
+        fill: #ffffff00;
+    }*/
+.anytime-banner .owl-carousel .owl-item img{
+        width:auto !important
+    }
+    .anytime-banner .banner {
+        max-height: 340.52px;
+    }
+    .anytime-banner {
+        height: 475px;
+    }
+    .anytime-banner .item {
+        margin-top: 10px;
+    }
+    .free-chat-banner .banner-sub-subheading svg {
+        width: 12px;
+    }
+
+    .rs-10-banner .banner-content {
+        height: 340.52px;
+        margin-left: 35%;
+    }
+    .rs-10-banner.holi-banner {
+        border: 1px solid #ee4e5e;
+    }
+    .rs-10-banner.holi-banner .banner-content {
+        margin-left: 40%;
+        z-index:5;
+    }
+    .rs-10-banner.independance .banner-content {
+        margin-left: 5%;
+        margin-right:20%;
+    }
+    .free-chat-banner .banner-sub-subheading  a span{
+        text-decoration:underline
+    }
+
+
+    .rs-10-banner .banner-content h1, .rs-10-banner .banner-content .h1 {
+        font-size: 45px;
+        font-weight: bold;
+    }
+    .rs-10-banner.independance .banner-content h1, .rs-10-banner .banner-content .h1 {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .rs-10-banner .banner-sub-subheading {
+        color: #7D7D7D !important;
+    }
+
+    .rs-10-banner .banner-content .banner-subheading {
+        font-size: 20px;
+    }
+
+    .rs-10-banner .banner-content .banner-price {
+        color: #ee4e5e;
+        font-size: 45px;
+        font-weight: bold;
+        font-style: italic;
+        text-shadow: 0px 3px 6px #ee4e5e42;
+    }
+    .rs-10-banner.holi-banner .banner-content .banner-price {
+        font-style: normal;
+    }
+
+        .rs-10-banner .banner-content .btn {
+            width: 328px;
+            height: 60px;
+            background: #FFD700;
+            border: 1px solid #ECCC1C;
+            box-shadow: 0px 5px 5px #FFD70057;
+            border-radius: 50px;
+            font-size: 32px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 7px auto;
+            transition: 0.45s;
+            color:#000;
+        }
+        .rs-10-banner.independance .banner-content .btn{
+            margin:7px 0;
+        }
+
+            .rs-10-banner .banner-content .btn:hover, .rs-10-banner .banner-content .btn:focus, .rs-10-banner .banner-content .btn:active {
+                background: #ffe13e;
+            }
+
+    .rs-10-banner .banner-image {
+        width:53.4%;
+        /*padding-right: 60px;*/
+    }
+
+    .rs-10-banner .pdiscount {
+        width: 130px;
+        height: 130px;
+        overflow: hidden;
+        position: absolute;
+    }
+
+        .rs-10-banner .pdiscount::before,
+        .rs-10-banner .pdiscount::after {
+            position: absolute;
+            z-index: 0;
+            content: '';
+            display: block;
+            border: 5px solid #87101C;
+        }
+
+        .rs-10-banner .pdiscount span {
+            position: absolute;
+            display: block;
+            width: 190px;
+            padding: 12px 0;
+            background-color: #EE4E5E;
+            box-shadow: 0 5px 10px rgb(0 0 0 / 10%);
+            color: #fff;
+            font-size: 14px;
+            text-shadow: 0 1px 1px rgb(0 0 0 / 20%);
+            text-align: center;
+            font-weight: 600;
+        }
+
+        .rs-10-banner .pdiscount.ribbon-top-left {
+            top: -10px;
+            left: -10px;
+        }
+
+            .rs-10-banner .pdiscount.ribbon-top-left::before,
+            .rs-10-banner .pdiscount.ribbon-top-left::after {
+                border-top-color: transparent;
+                border-left-color: transparent;
+            }
+
+            .rs-10-banner .pdiscount.ribbon-top-left::before {
+                top: 0;
+                right: 0;
+            }
+
+            .rs-10-banner .pdiscount.ribbon-top-left::after {
+                bottom: 0;
+                left: 0;
+            }
+
+            .rs-10-banner .pdiscount.ribbon-top-left span {
+        right: -16px;
+        top: 26px;
+        transform: rotate(-45deg);
+    }
+
+    .rs-10-banner .plan-table.d-flex span.discount-applied {
+        text-decoration: line-through;
+        font-weight: 300;
+    }
+    /**navratri banner start*/
+
+    .navratri-banner a:hover, .navratri-banner a:focus, .navratri-banner a:active {
+        text-decoration: none !important;
+    }
+    .navratri-banner {
+        background-image: url("dashaspeaks/web/content/anytimeastro/images/splash_bg.png"), linear-gradient(288deg, #EB2027 0%, #D31C5B 100%);
+        /*background: transparent linear-gradient(288deg, #EB2027 0%, #D31C5B 100%) 0% 0% no-repeat padding-box;*/
+        border-radius: 15px;
+        background-position: 0;
+        padding-left: 0;
+        background-repeat: no-repeat;
+        height: 340px;
+        overflow: hidden;
+    }
+    .navratri-banner .btn-chat{
+        width:300px;
+    }
+    .navratri-banner .navratri-bg1,.navratri-banner .navratri-bg2{
+        position:absolute;
+    }
+    .navratri-banner .navratri-bg1{
+        left:10px;
+    }
+        .navratri-banner .navratri-bg2 {
+            right: 10px;
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+       /* .navratri-banner .banner-image {
+            background-image: url("./Content/Image/navratri_banner_left.png"),url("./Content/Image/navratri_banner_left.png");
+        }*/
+    .navratri-banner .banner-content {
+        background-image: url('dashaspeaks/web/content/anytimeastro/images/navratri_banner_right.png');
+        background-position:right;
+        background-repeat:no-repeat;
+    }
+    .navratri-banner .banner-content,.navratri-banner .banner-image{
+        width:50%;
+    }
+        .navratri-banner .banner-content svg {
+            /*width: 453.667px;*/
+            height: 120px;
+            margin: 0 auto;
+            display: block;
+        }
+    .navratri-banner .tag1{
+        line-height:10px;
+        font-size:24px;
+    }
+        .navratri-banner .tags-container {
+            max-width: 300px;
+            display: block;
+            margin: 0 auto;
+            border: 2px dashed #000;
+            position:relative;
+        }
+        .navratri-banner .tags-container .fa-scissors {
+            position: absolute;
+        }
+        .navratri-banner .tags-container .fa-scissors.top{
+            top:-10px;
+            left:10px;
+        }
+        .navratri-banner .tags-container .fa-scissors.bottom {
+            bottom: -8px;
+            right: 10px;
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+
+    .navratri-banner .tag4{
+        opacity:0.7;
+    }
+    /**navratri banner end*/
+
+    /**free chat banner*/
+    .free-chat-banner {
+        background: rgb(246,246,246);
+        background-image: url("dashaspeaks/web/content/anytimeastro/images/home-banner-bg-group.png"), linear-gradient(90deg, rgba(246,246,246,1) 0%, rgba(255,245,246,1) 100%);
+        border-radius: 15px;
+        background-position: 75%;
+        padding-left:40px;
+        background-repeat:no-repeat;
+        height:340px;
+        overflow:hidden;
+    }
+        .free-chat-banner.expert-specific {
+            background: rgb(246,246,246);
+            background-image: linear-gradient(90deg, rgba(246,246,246,1) 0%, rgba(255,245,246,1) 100%);
+            padding-left: 20px;
+            padding-right: 40px;
+            border: 1px solid #ee4e5e;
+        }
+
+        .free-chat-banner.expert-specific .banner-image {
+            width: 340px;
+            background-image: url("dashaspeaks/web/content/anytimeastro/images/home-banner-bg-group.png");
+            background-size: cover;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-repeat: no-repeat !important;
+            padding-left: 20px;
+            background-position:center !important;
+        }
+        .free-chat-banner.expert-specific .banner-image img{
+            max-width:100% !important;
+            width:auto !important;
+        }
+        .free-chat-banner .banner-content .btn {
+            width: 352px;
+            height: 64px;
+            background: #FFD700;
+            border: 1px solid #ECCC1C;
+            box-shadow: 0px 5px 5px #FFD70057;
+            border-radius: 50px;
+            font-size: 24px;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 7px 0;
+            transition: 0.45s;
+        }
+        .free-chat-banner.expert-specific .banner-content .btn{
+            font-weight:bold !important;
+        }
+        .free-chat-banner .banner-content .banner-subheading {
+            font-size: 23px;
+        }
+        .free-chat-banner.expert-specific .banner-content .banner-subheading {
+            font-size: 46px;
+            font-weight: bold !important;
+        }
+        .free-chat-banner .banner-content h1, .free-chat-banner .banner-content .h1 {
+            font-size: 45px;
+        }
+        .free-chat-banner.expert-specific .banner-content h1, .free-chat-banner.expert-specific .banner-content .h1 {
+            font-size: 38px;
+            font-weight: 400 !important;
+        }
+        .free-chat-banner .banner-content .banner-price {
+            color: #EE4D5E;
+            font-size: 45px;
+            font-weight: bold;
+            font-style: italic;
+            text-shadow: 0px 3px 6px #EE4D5E99;
+        }
+        .free-chat-banner.expert-specific .banner-content .banner-price {
+            color: #EE4D5E;
+            font-size: 24px;
+            font-weight: 400;
+            font-style: normal;
+            text-shadow: none;
+        }
+    @media (max-width: 1198.99px) {
+        .rs-10-banner.independance .banner-content{
+            margin-left:7%;
+        }
+        .navratri-banner .tag1 {
+            line-height: 24px;
+        }
+        .navratri-banner .banner-content {
+            width: 60%;
+        }
+        .navratri-banner .banner-content svg{
+            height:120px;
+        }
+        .navratri-banner .navratri-bg1, .navratri-banner .navratri-bg2 {
+            display: none;
+        }
+        .navratri-banner .banner-image {
+            width: 40%;
+        }
+        .anytime-banner, .free-chat-banner {
+            height: auto;
+            background-position: right;
+            padding-left: 20px;
+            background-image: url("dashaspeaks/web/content/anytimeastro/images/home-banner-bg-group.png"), linear-gradient(90deg, rgba(246,246,246,1) 0%, rgba(255,245,246,1) 100%);
+        }
+            .free-chat-banner .banner-content h1, .free-chat-banner .banner-content .h1, .free-chat-banner .banner-content .banner-price {
+                font-size: 40px;
+            }
+
+            .free-chat-banner .banner-image {
+            width: 50%;
+            height:350px;
+        }
+        .free-chat-banner .banner-image img {
+            height: 100%;
+            object-fit: cover;
+            object-position: left;
+            border-top-right-radius: 15px;
+            border-bottom-right-radius: 15px;
+        }
+
+
+                /*.free-chat-banner .banner-content {
+                padding-top: 30px !important;
+                padding-bottom: 30px !important;
+            }*/
+                .free-chat-banner .banner-content .btn {
+            width: 270px;
+            height: 50px;
+            font-size: 20px;
+            margin: 8px 0;
+        }
+
+        .rs-10-banner .banner-image {
+            width: 47%;
+        }
+        .rs-10-banner.independance {
+            background-position: 120% !important;
+        }
+        .rs-10-banner .banner-content .btn {
+            width: 250px;
+            height: 50px;
+            font-size: 24px;
+        }
+      /*  .rs-10-banner .banner-content {
+            padding-left: 50px;
+        }*/
+
+            .rs-10-banner .banner-content h1, .rs-10-banner .banner-content .h1 {
+                font-size: 40px;
+            }
+
+        .rs-10-banner.independance .banner-content h1, .rs-10-banner.independance .banner-content .banner-price {
+            font-size: 32px;
+        }
+
+            .rs-10-banner .banner-content .banner-price {
+            font-size: 40px;
+        }
+
+        .rs-10-banner .banner-image {
+            padding-right: 50px;
+        }
+        .free-chat-banner.expert-specific .banner-content h1, .free-chat-banner.expert-specific .banner-content .h1 {
+            font-size: 30px;
+        }
+        .free-chat-banner.expert-specific .banner-content .banner-subheading {
+            font-size: 35px;
+        }
+        .free-chat-banner.expert-specific {
+            padding-left: 0;
+            padding-right: 10px;
+            background-size: contain;
+        }
+        .free-chat-banner.expert-specific .banner-image{
+            background-size:100% !important;
+        }
+        .free-chat-banner.expert-specific .banner-content .banner-price{
+            font-size:18px;
+        }
+        .rs-10-banner.holi-banner{
+            background-position:-85px !important;
+        }
+    }
+
+    @media (max-width: 991px) {
+        .navratri-banner .banner-content svg {
+            height: 80px;
+        }
+        .navratri-banner{
+            height:291.63px;
+        }
+            .navratri-banner .tags-container {
+                margin-top: 20px !important;
+                margin-bottom: 15px !important;
+                max-width:250px !important;
+            }
+        .navratri-banner .tag2 {
+            font-size:32px !important;
+        }
+
+
+            .navratri-banner .btn-chat {
+                font-size: 20px !important;
+                padding: 10px 35px !important;
+                width:230px !important;
+            }
+        .navratri-banner .tag1 {
+            line-height: 20px;
+            font-size: 18px !important;
+        }
+        .navratri-banner .navratri-bg1,.navratri-banner .navratri-bg2{
+            display:none;
+        }
+        .rs-10-banner.independance .banner-content h1, .rs-10-banner.independance .banner-content .banner-price {
+            font-size: 30px;
+        }
+        .rs-10-banner.independance {
+            background-position: 140% !important;
+        }
+        /*.rs-10-banner.independance .banner-content {
+            margin-left: 3%;
+        }*/
+    .free-chat-banner .banner-sub-subheading p{
+            font-size:12px;
+        }
+    .free-chat-banner .banner-sub-subheading svg{
+            width:12px;
+        }
+        .free-chat-banner .banner-image {
+            width: 45%;
+            height: 291.63px;
+        }
+        .free-chat-banner .banner-content .banner-price {
+            text-shadow: 0px 2px 3px #ee4d5e99;
+        }
+        .free-chat-banner{
+            padding-left:15px;
+            background-size:contain;
+        }
+        /*.rs-10-banner .banner-content {
+            padding-left: 43px;
+        }*/
+        .free-chat-banner .banner-content h1, .free-chat-banner .banner-content .h1, .free-chat-banner .banner-content .banner-price {
+            font-size: 34px;
+        }
+        .free-chat-banner .banner-content .banner-subheading{
+            font-size:17px;
+        }
+
+        .rs-10-banner{
+            background-position:-25px !important;
+        }
+        .rs-10-banner .banner-content {
+            height: 291.63px;
+        }
+            .rs-10-banner .banner-content .banner-subheading {
+            font-size: 14px;
+        }
+
+        .rs-10-banner .banner-content h1, .rs-10-banner .banner-content .h1 {
+            font-size: 30px;
+        }
+
+            .rs-10-banner .banner-content .btn {
+            width: 220px;
+            height: 42px;
+            font-size: 20px;
+        }
+
+            .rs-10-banner .banner-content .banner-price {
+            font-size: 30px;
+            margin-bottom: 5px;
+        }
+
+        .rs-10-banner .banner-image {
+            padding-right: 28px;
+            width: 51%;
+        }
+
+        .rs-10-banner .pdiscount {
+            width: 110px;
+            height: 110px;
+        }
+
+            .rs-10-banner .pdiscount span {
+            padding: 8px 0;
+            width: 155px;
+        }
+
+            .rs-10-banner .pdiscount.ribbon-top-left span {
+            right: -10px;
+            top: 21px;
+        }
+        .free-chat-banner.expert-specific .banner-content h1, .free-chat-banner.expert-specific .banner-content .h1 {
+            font-size: 22px;
+            white-space:nowrap;
+        }
+        .free-chat-banner.expert-specific .banner-content .banner-subheading {
+            font-size: 28px;
+            white-space: nowrap;
+        }
+        .free-chat-banner.expert-specific .banner-content .banner-price{
+            font-size:14px;
+            margin-bottom:25px;
+        }
+    }
+
+    @media(min-width:768px){
+        .dd .item {
+            display: none;
+        }
+
+            .dd .item:first-child {
+            display: block;
+        }
+    }
+
+
+    @media (max-width: 767px) {
+        .navratri-banner {
+            height: 257.3px;
+        }
+            .navratri-banner .tag4 {
+                display:none;
+            }
+            .navratri-banner .tags-container {
+                margin-top: 10px !important;
+                margin-bottom: 10px !important;
+                max-width:220px !important;
+            }
+            .navratri-banner .tag2 {
+                font-size: 28px !important;
+            }
+
+            .navratri-banner .btn-chat {
+                font-size: 18px !important;
+                padding:3px 25px !important;
+            }
+            .navratri-banner .tag1 {
+                line-height: 21px;
+                font-size: 20px !important;
+            }
+        .dd .item {
+            display: none;
+        }
+        .rs-10-banner.independance .banner-content h1, .rs-10-banner.independance .banner-content .banner-price {
+            font-size: 21px;
+        }
+        .rs-10-banner.independance {
+            background-position: 170% !important;
+        }
+
+            .dd .item:first-child {
+            display: block;
+        }
+        .anytime-banner .container {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+        .rs-10-banner {
+            background-position: -25px !important;
+        }
+
+        .rs-10-banner .banner-content {
+            height: 257.30px;
+        }
+        .free-chat-banner {
+            padding-left: 0;
+        }
+        .free-chat-banner .banner-content{
+            padding-left:15px !important;
+        }
+
+
+        .rs-10-banner.independance .banner-content .banner-subheading{
+            font-size: 14px;
+            width:90%;
+        }
+        .rs-10-banner.independance .banner-sub-subheading {
+            font-size: 10px !important;
+            width: 90%;
+        }
+
+        .rs-10-banner .banner-content h1, .rs-10-banner .banner-content .h1 {
+            font-size: 21px;
+            margin-bottom: 2px;
+        }
+        .rs-10-banner.holi-banner .banner-content h1, .rs-10-banner.holi-banner .banner-content .h1, .rs-10-banner.holi-banner .banner-content .banner-price {
+            font-size: 30px;
+        }
+            .rs-10-banner .banner-content .btn {
+            width: 180px;
+            height: 36px;
+            font-size: 18px;
+        }
+        .rs-10-banner.holi-banner .banner-content .btn {
+            width: 220px;
+
+        }
+
+            .rs-10-banner .banner-content .banner-price {
+            font-size: 21px;
+            margin-bottom: 5px;
+        }
+
+        .rs-10-banner .banner-image {
+            padding-right: 20px;
+        }
+
+        .rs-10-banner .pdiscount span {
+            padding: 5px 0;
+            width: 145px;
+        }
+
+        .rs-10-banner .pdiscount {
+            width: 100px;
+            height: 100px;
+        }
+
+            .rs-10-banner .pdiscount.ribbon-top-left span {
+            right: -15px;
+            top: 25px;
+            font-size: 11px;
+        }
+
+        .free-chat-banner .banner-content .btn {
+            width: 200px;
+            height: 44px;
+            font-size: 17px;
+            margin: 8px 0;
+        }
+        .free-chat-banner .banner-image {
+            width: 47%;
+            height: 257px;
+        }
+        .free-chat-banner .banner-content h1, .free-chat-banner .banner-content .h1, .free-chat-banner .banner-content .banner-price {
+            font-size: 26px;
+            padding-top: 0;
+            padding-bottom: 0;
+        }
+        .free-chat-banner .banner-content .banner-subheading {
+            font-size: 15px;
+        }
+        .free-chat-banner .banner-sub-subheading{
+            font-size:11px;
+        }
+            .free-chat-banner .banner-sub-subheading svg {
+            width: 11px;
+        }
+        .free-chat-banner.expert-specific .banner-content h1, .free-chat-banner.expert-specific .banner-content .h1 {
+            font-size: 18px;
+            white-space: nowrap;
+        }
+
+        .free-chat-banner.expert-specific .banner-content .banner-subheading {
+            font-size: 24px;
+            white-space: nowrap;
+        }
+        .free-chat-banner.expert-specific .banner-content .banner-price{
+            font-size:16px;
+            margin-bottom:10px;
+        }
+    }
+
+    @media (max-width: 575px) {
+        .navratri-banner {
+            height: 197px;
+        }
+            .navratri-banner .banner-content svg {
+                height: 60px;
+            }
+            .navratri-banner .tag4 {
+                font-size: 11px !important;
+            }
+
+            .navratri-banner .tag2 {
+                font-size: 18px !important;
+                line-height: 20px !important;
+            }
+            .navratri-banner .tags-container {
+                margin-top: 9px !important;
+                margin-bottom: 9px !important;
+                max-width: 185px !important;
+            }
+
+            .navratri-banner .tag5{
+                font-size:14px !important;
+            }
+            .navratri-banner .btn-chat {
+                font-size: 17px !important;
+                padding: 1px 35px !important;
+                margin-bottom: 2px !important;
+                width:180px !important;
+            }
+
+            .navratri-banner .tag1 {
+                line-height: 15px;
+                font-size: 15px !important;
+            }
+        .rs-10-banner.independance .banner-content {
+            margin-left: 10%;
+            margin-right:15%;
+        }
+        .rs-10-banner.independance {
+            background-position: 140% !important;
+        }
+        .rs-10-banner.independance .banner-content h1, .rs-10-banner.independance .banner-content .banner-price {
+            font-size: 18px;
+        }
+        .anytime-banner, .free-chat-banner{
+            padding-left:0;
+        }
+            .free-chat-banner .banner-content h1, .free-chat-banner .banner-content .h1, .free-chat-banner .banner-content .banner-price {
+                font-size: 23px;
+                padding-top: 0;
+                margin-bottom: 8px;
+            }
+            .free-chat-banner .banner-content .btn {
+                width: 160px;
+                height: 40px;
+                font-size: 14px;
+                margin: 8px 0;
+            }
+        .free-chat-banner .banner-content .banner-subheading {
+            font-size: 13px;
+        }
+        .free-chat-banner .banner-image {
+            width: 45%;
+            height: 197px;
+        }
+        .rs-10-banner {
+            background-position: left !important;
+        }
+
+        .rs-10-banner .banner-content {
+            height: 257.30px;
+        }
+
+            .rs-10-banner .banner-content .banner-subheading, .rs-10-banner .banner-sub-subheading {
+            font-size: 13px;
+        }
+
+            .rs-10-banner .banner-content h1, .rs-10-banner .banner-content .h1 {
+                font-size: 18px;
+                margin-bottom: 2px;
+            }
+
+            .rs-10-banner .banner-content .btn {
+            width: 150px;
+            height: 36px;
+            font-size: 18px;
+        }
+
+            .rs-10-banner .banner-content .banner-price {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        .rs-10-banner .banner-image {
+            padding-right: 15px;
+            width: 38.1%;
+            height: 100%;
+            position: relative;
+        }
+
+            .rs-10-banner .banner-image img {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            max-width: 100%;
+        }
+
+        .rs-10-banner, .anytime-banner .banner {
+            height: 197px;
+        }
+
+            .rs-10-banner .banner-image img {
+            border-bottom-right-radius: 8px;
+        }
+        .free-chat-banner.expert-specific .banner-image{
+            width:200px;
+            padding-left:0;
+        }
+        .free-chat-banner.expert-specific .banner-content h1, .free-chat-banner.expert-specific .banner-content .h1 {
+            font-size: 17px;
+            white-space: nowrap;
+        }
+
+        .free-chat-banner.expert-specific .banner-content .banner-subheading {
+            font-size: 22px;
+            white-space: nowrap;
+        }
+        .free-chat-banner.expert-specific .banner-content {
+            padding-left: 15px !important;
+            width: 70%;
+        }
+        .free-chat-banner.expert-specific .banner-content .banner-price {
+            font-size: 13px;
+            margin-top:3px;
+            margin-bottom:5px;
+        }
+        .rs-10-banner.holi-banner {
+            background-position: -30px !important;
+        }
+            .rs-10-banner.holi-banner .banner-content h1, .rs-10-banner.holi-banner .banner-content .h1, .rs-10-banner.holi-banner .banner-content .banner-price {
+                font-size: 21px;
+            }
+        .holi-banner-bg {
+            border-bottom-right-radius: 20px !important;
+        }
+            .holi-banner-bg img {
+            border-bottom-right-radius: 10px !important;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .navratri-banner .banner-content svg {
+            height: 57px;
+        }
+        .navratri-banner .banner-image {
+            width: 46% !important;
+        }
+         .navratri-banner .banner-content {
+            width: 54% !important;
+            padding-left:0 !important;
+        }
+        .navratri-banner .banner-image img{
+            height:180px !important;
+            object-fit:cover !important;
+        }
+        .navratri-banner .btn-chat {
+            font-size: 16px !important;
+            width:180px;
+            height:35px;
+            margin-bottom: 2px !important;
+            font-weight:700 !important;
+        }
+        .navratri-banner .tags-container{
+            width:160px !important;
+        }
+        .navratri-banner .tag5 {
+            font-size: 10px !important;
+        }
+        .navratri-banner .tag5 span{
+            font-weight:600 !important;
+        }
+        .rs-10-banner.independance .banner-content {
+            margin-left: 0;
+            margin-right: 15%;
+            padding-left: 10px !important;
+        }
+        .rs-10-banner .banner-content {
+            padding-left: 30px !important;
+            /*width: 68%;*/
+        }
+
+        .free-chat-banner .banner-image{
+            width:48%;
+        }
+        .anytime-banner .container {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+        .free-chat-banner .banner-content h1, .free-chat-banner .banner-content .h1, .free-chat-banner .banner-content .banner-price {
+            font-size: 18px;
+        }
+        .free-chat-banner .banner-content .btn {
+            width: 150px;
+            height: 35px;
+            font-size: 13px;
+            margin: 8px 0;
+        }
+        .free-chat-banner{
+            padding-left:3px;
+        }
+        .free-chat-banner .banner-content .banner-subheading {
+            font-size: 10px;
+        }
+        .rs-10-banner.independance {
+            background-position: 160% !important;
+        }
+
+            .rs-10-banner .banner-content .banner-subheading, .rs-10-banner .banner-sub-subheading {
+            font-size: 11px;
+        }
+        .rs-10-banner.independance .banner-sub-subheading {
+            font-size: 8px !important;
+            width: 90%;
+        }
+
+        .rs-10-banner .banner-content h1, .rs-10-banner .banner-content .h1 {
+            font-size: 17px;
+            margin-bottom: 2px;
+        }
+
+            .rs-10-banner .banner-content .btn {
+            width: 160px;
+            height: 34px;
+            font-size: 15px;
+            margin: 7px auto;
+        }
+            .rs-10-banner.holi-banner .banner-content .btn{
+                width:180px;
+            }
+
+            .rs-10-banner .banner-content .banner-price {
+            font-size: 17px;
+            margin-bottom: 2px;
+        }
+
+        .rs-10-banner .banner-image {
+            padding-right: 0;
+        }
+
+        .rs-10-banner {
+            border-radius: 10px !important;
+            background-position: -35px !important;
+        }
+
+        .rs-10-banner .pdiscount.ribbon-top-left {
+            display: none;
+        }
+            .rs-10-banner.independance .banner-content h1 {
+                font-size: 16px;
+            }
+            .rs-10-banner.independance .banner-content .banner-price {
+                font-size: 18px;
+            }
+        .free-chat-banner.expert-specific .banner-content h1, .free-chat-banner.expert-specific .banner-content .h1 {
+            font-size: 12px;
+        }
+        .free-chat-banner.expert-specific .banner-content .banner-subheading {
+            font-size: 16px;
+        }
+        .free-chat-banner.expert-specific .banner-content .banner-price{
+            font-size:12px;
+        }
+        .rs-10-banner.holi-banner {
+            background-position: -75px !important;
+        }
+
+        .rs-10-banner.holi-banner .banner-content {
+            margin-left: 25%;
+        }
+        .holi-banner-bg {
+            border-bottom-right-radius: 10px !important;
+        }
+
+    }
+
+    @media (max-width: 400px) {
+        .navratri-banner {
+            height: 165px;
+        }
+            .navratri-banner .banner-image img {
+                height: 160px !important;
+            }
+            .navratri-banner .banner-content svg {
+                height: 50px;
+            }
+            .navratri-banner .tag1 {
+                line-height: 12px;
+                font-size: 12px !important;
+            }
+            .navratri-banner .tag4 {
+                font-size: 7px !important;
+            }
+            .navratri-banner .tags-container {
+                margin-top: 7px !important;
+                margin-bottom: 7px !important;
+            }
+            .navratri-banner .tag2 {
+                font-size: 15px !important;
+            }
+            .navratri-banner .tag5 {
+                font-size: 10px !important;
+            }
+
+
+            .navratri-banner .btn-chat {
+                font-size: 14px !important;
+                height:25px !important;
+                /*padding: 3px 15px !important;
+                margin-bottom: 2px !important;*/
+            }
+        .rs-10-banner.independance .banner-content h1{
+            font-size: 14px;
+        }
+        .rs-10-banner.independance .banner-content .banner-price {
+            font-size: 16px;
+        }
+
+        .free-chat-banner .banner-sub-subheading, .free-chat-banner .banner-content .banner-subheading {
+            font-size: 9px;
+        }
+            .free-chat-banner .banner-sub-subheading svg {
+            width: 9px;
+        }
+        .free-chat-banner .banner-content h1, .free-chat-banner .banner-content .h1, .free-chat-banner .banner-content .banner-price {
+            font-size: 16px;
+        }
+        .rs-10-banner, .anytime-banner .banner, .free-chat-banner .banner-image {
+            height: 165px;
+        }
+
+            .rs-10-banner .banner-content .banner-subheading, .rs-10-banner .banner-sub-subheading {
+            font-size: 9px !important;
+        }
+            .rs-10-banner.independance .banner-content .banner-subheading {
+                font-size: 12px;
+                width: 90%;
+            }
+
+            .rs-10-banner .banner-content h1, .rs-10-banner .banner-content .h1 {
+                font-size: 14px;
+                margin-bottom: 2px;
+            }
+
+            .rs-10-banner .banner-content .btn {
+                width: 115px;
+                height: 30px;
+                font-size: 13px;
+                margin: 7px auto;
+            }
+
+            .rs-10-banner .banner-content .banner-price {
+            font-size: 14px;
+            margin-bottom: 2px;
+        }
+
+            .rs-10-banner .banner-image {
+            padding-right: 0;
+        }
+
+
+
+        .rs-10-banner {
+            border-radius: 10px !important;
+        }
+
+            .rs-10-banner .pdiscount {
+            width: 80px;
+            height: 80px;
+        }
+
+        .rs-10-banner .pdiscount span {
+            width: 115px;
+        }
+
+         .rs-10-banner .pdiscount.ribbon-top-left span {
+            right: -10px;
+            top: 18px;
+            font-size: 9px;
+        }
+            .rs-10-banner.holi-banner .banner-content h1, .rs-10-banner.holi-banner .banner-content .h1, .rs-10-banner.holi-banner .banner-content .banner-price {
+                font-size: 18px;
+            }
+            .rs-10-banner.holi-banner {
+                background-position: -65px !important;
+            }
+    }
+    .anytime-banner .owl-theme .owl-nav.disabled + .owl-dots{
+        height:26px;
+    }
+    @media (max-width: 350px) {
+        .free-chat-banner .banner-image img {
+            object-fit: contain;
+        }
+    }
+    .holi-banner-bg {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+        width:25%;
+        overflow:hidden;
+    }
+    .holi-banner-bg img{
+        border-bottom-right-radius:15px;
+    }
+.rashmi-deasi-banner {
+            background: #F2F3F5 url('dashaspeaks/web/content/anytimeastro/images/rashami-desai.png');
+            background-position: right;
+            background-repeat: no-repeat;
+            background-size: contain;
+            height: 342.52px;
+            border-radius: 20px;
+            image-rendering: pixelated;
+        }
+         .rashmi-deasi-banner .banner-sub-subheading svg {
+             width: 12px;
+         }
+         .rashmi-deasi-banner .banner-sub-subheading a span {
+             text-decoration: underline;
+         }
+
+     .rashmi-deasi-banner .content-section {
+         width: 65%;
+     }
+        .rashmi-deasi-banner .content-section .h1{
+            font-size:30px;
+        }
+        .rashmi-deasi-banner .content-section .tagline{
+            font-size:55px;
+        }
+
+        .rashmi-deasi-banner.hi .content-section .tagline {
+            font-size: 53px;
+            margin-top: 10px;
+        }
+        .rashmi-deasi-banner .content-section .btn {
+            width: 352px;
+            height: 64px;
+            background: #FFD700;
+            border: 1px solid #ECCC1C;
+            box-shadow: 0px 5px 5px #FFD70057;
+            border-radius: 50px;
+            font-size: 23px;
+            transition: 0.45s;
+        }
+        @media(max-width:1198.99px)
+        {
+            .rashmi-deasi-banner .content-section .h1 {
+                font-size: 21px;
+            }
+            .rashmi-deasi-banner .content-section .tagline {
+                font-size: 38px;
+            }
+            .rashmi-deasi-banner.hi .content-section .tagline {
+                font-size: 36px;
+            }
+            .rashmi-deasi-banner .content-section .btn {
+                width: 320px;
+            }
+
+        }
+        @media(max-width:991px) {
+            .rashmi-deasi-banner {
+                height: 293.63px;
+                image-rendering: unset;
+            }
+            .rashmi-deasi-banner .content-section .btn {
+                width: 280px;
+                font-size: 20px;
+                height: 54px;
+            }
+            .rashmi-deasi-banner .content-section .h1 {
+                font-size: 17px;
+            }
+            .rashmi-deasi-banner.hi .content-section .h1 {
+                font-size: 16px;
+            }
+            .rashmi-deasi-banner .content-section {
+                width: 70%;
+            }
+            .rashmi-deasi-banner .content-section .tagline {
+                font-size: 30px;
+            }
+            .rashmi-deasi-banner.hi .content-section .tagline {
+                font-size: 28px;
+            }
+        }
+        @media(max-width:767px) {
+            .rashmi-deasi-banner {
+                height: 259.3px;
+                background-position: 140px 0;
+            }
+
+            .rashmi-deasi-banner .content-section .h1 {
+                font-size: 15px;
+            }
+            .rashmi-deasi-banner.hi .content-section .h1 {
+                font-size: 14px;
+            }
+
+            .rashmi-deasi-banner .content-section .tagline {
+                font-size: 26px;
+            }
+
+            .rashmi-deasi-banner.hi .content-section .tagline {
+                font-size: 24px;
+            }
+            .rashmi-deasi-banner .content-section .btn {
+                width: 265px;
+                height: 50px;
+                font-size: 20px;
+            }
+        }
+        @media(max-width:575px) {
+         .rashmi-deasi-banner {
+             height: 197px;
+             background-position: right;
+             border: 1px solid #ee4e5e;
+         }
+
+            .rashmi-deasi-banner .content-section .h1 {
+                font-size: 18px;
+            }
+
+            .rashmi-deasi-banner .content-section .tagline {
+                font-size: 22px;
+                margin-bottom: 5px;
+            }
+
+            .rashmi-deasi-banner.hi .content-section .tagline {
+                font-size: 20px;
+            }
+
+            .rashmi-deasi-banner .content-section .btn {
+                width: 180px;
+                height: 46px;
+                font-size: 14px;
+            }
+
+                .rashmi-deasi-banner .banner-sub-subheading, .rashmi-deasi-banner .banner-sub-subheading span {
+                    font-size: 10px;
+                }
+
+        }
+        @media(max-width:480px) {
+            .rashmi-deasi-banner .content-section .h1 {
+                font-size: 17px;
+            }
+
+            .rashmi-deasi-banner .content-section .tagline {
+                font-size: 20px;
+            }
+            .rashmi-deasi-banner.hi .content-section .tagline {
+                font-size: 18px;
+            }
+            .rashmi-deasi-banner {
+                height: 197px;
+                background-position: 135px;
+            }
+
+        }
+        @media(max-width:420px) {
+            .rashmi-deasi-banner .content-section .h1 {
+                font-size: 14px;
+            }
+
+
+            .rashmi-deasi-banner .content-section .tagline {
+                font-size: 16px;
+            }
+            .rashmi-deasi-banner.hi .content-section .tagline {
+                font-size: 15px;
+            }
+            .rashmi-deasi-banner .content-section .btn {
+                width:150px;
+                height: 35px;
+            }
+
+            .rashmi-deasi-banner .banner-sub-subheading, .rashmi-deasi-banner .banner-sub-subheading span {
+                font-size: 9px;
+                margin-right: 0 !important;
+                margin-left: 0 !important;
+            }
+
+            .banner-sub-subheading svg{
+                height:9px;
+            }
+        }
+
+        @media(max-width:400px)
+        {
+         .rashmi-deasi-banner {
+             height: 165px;
+             background-position: right;
+         }
+        }
+
+        @media(max-width:375px) {
+            .rashmi-deasi-banner {
+                background-position: 85px;
+            }
+            .rashmi-deasi-banner .content-section .h1 {
+                font-size: 14px;
+            }
+            .rashmi-deasi-banner .content-section .btn {
+                width: 160px;
+                height: 30px;
+                font-size: 12px;
+            }
+
+            .rashmi-deasi-banner .content-section .tagline {
+                font-size: 15px;
+                margin-bottom: 5px;
+            }
+            .rashmi-deasi-banner.hi .content-section .tagline {
+                font-size: 14px;
+                line-height:20px;
+            }
+
+        }
+        /***Rashami Desai video banner css*/
+     .rashmi-deasi-banner.video-banner {
+        background: #FFFFFF url('dashaspeaks/web/content/anytimeastro/images/dotted.png');
+        background-position: top right;
+        background-repeat: no-repeat;
+        background-size: auto;
+     }
+
+     .rashmi-deasi-banner.video-banner video {
+        width: 100%;
+        border-radius: 8px;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .rashmi-deasi-banner.video-banner .content-section .tagline {
+        font-size: 26px;
+        font-weight:600;
+    }
+
+    .rashmi-deasi-banner.video-banner.ai-offer .content-section .tagline {
+        font-size: 24px;
+    }
+
+    .rashmi-deasi-banner.video-banner .content-section .h1 {
+        font-size: 40px;
+    }
+
+    #mute-video {
+        position: absolute;
+        top: 22px;
+        right: 22px;
+        background: #fff;
+        border: none;
+        z-index: 5;
+        width: 20px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        height: 20px;
+        overflow: hidden;
+        animation: right-animate 7s ease;
+        padding:4px;
+        border-radius:3px;
+    }
+     #mute-video:hover, #mute-video:active, #mute-video:focus{
+         outline:none;
+         border:none;
+     }
+     @keyframes right-animate {
+        0% {
+            width: 20px;
+        }
+        50% {
+            width: 122px;
+        }
+        100% {
+            width: 20px;
+        }
+    }
+     @media(max-width:1199px)
+     {
+        .rashmi-deasi-banner.video-banner .content-section .h1 {
+            font-size: 32px;
+        }
+        .rashmi-deasi-banner.video-banner .content-section .tagline {
+            font-size: 19px;
+        }
+        .rashmi-deasi-banner.video-banner .content-section .d-inline-block.pt-4 {
+            padding-top: 0 !important;
+        }
+        .rashmi-deasi-banner .content-section{
+            padding-left:20px !important;
+        }
+        .rashmi-deasi-banner.video-banner.ai-offer .content-section .tagline {
+            font-size: 19px;
+            margin-top: 6px;
+        }
+     }
+    @media(max-width:991px) {
+        .rashmi-deasi-banner.video-banner .content-section .h1 {
+            font-size: 26px;
+        }
+
+
+        .rashmi-deasi-banner.video-banner .content-section .btn {
+            width: 220px;
+            font-size: 20px;
+            height: 54px;
+        }
+        .rashmi-deasi-banner.video-banner .banner-sub-subheading{
+            font-size:12px;
+        }
+    }
+    @media(max-width:767px) {
+        /** changed for rashami video, to show the call/chat button, remove below css .anytime-call-action*/
+        .anytime-call-action{
+            display:none !important;
+        }
+        .rashmi-deasi-banner.video-banner {
+            display: block !important;
+            height: auto;
+            padding: 5px;
+            border-radius: 10px;
+            border: 1px solid #ffd0d4;
+            background: #FFFFFF url('dashaspeaks/web/content/anytimeastro/images/dotted.png');
+            background-position: bottom right;
+            background-repeat: no-repeat;
+            background-size: auto;
+            box-shadow: 0 3px 6px #ee4E5E33;
+            border: 1px solid #ee4E5E52;
+            margin-bottom:10px;
+        }
+
+
+
+
+        .rashmi-deasi-banner.video-banner .w-50{
+            width:100% !important;
+        }
+        .rashmi-deasi-banner.video-banner video{
+            margin:0;
+        }
+        .rashmi-deasi-banner.video-banner .content-section {
+            padding-top: 20px;
+            text-align: center;
+            padding-bottom: 10px;
+            padding-left:0 !important;
+        }
+        .rashmi-deasi-banner.video-banner .content-section .h1 {
+            font-size: 30px;
+        }
+
+
+        .rashmi-deasi-banner.video-banner .content-section .btn {
+            width: 250px;
+            height: 50px;
+            box-shadow: 0 3px 6px #ee4E5E26;
+            border: 1px solid #ee4e5e;
+            background: #fff;
+            font-size: 18px;
+        }
+        .rashmi-deasi-banner.video-banner .content-section .d-inline-block.pt-4{
+            padding-top:0 !important;
+        }
+    }
+    @media(max-width:450px){
+        .rashmi-deasi-banner.video-banner .content-section .h1 {
+            font-size: 24px;
+        }
+        .rashmi-deasi-banner.video-banner .content-section .tagline {
+            font-size: 18px;
+        }
+        .rashmi-deasi-banner.video-banner .content-section .btn {
+            height: 40px;
+            margin-top: 20px !important;
+        }
+    }
+.freechatbanner-extra {
+        background-color: rgb(254,246,246);
+        background-color: linear-gradient(90deg, rgba(254,246,246,1) 0%, rgba(246,246,246,1) 88%);
+        height: 340px;
+        border-radius: 15px;
+        border: 1px solid #ee4e5e;
+        background-image: url("../../dashaspeaks/web/content/anytimeastro/images/dotted.png");
+        background-repeat: no-repeat;
+        background-position: top right;
+
+    }
+
+    .freechatbanner-extra .banner-image {
+
+        background: url("dashaspeaks/web/content/anytimeastro/images/home-banner-bg-group.png");
+        background-repeat: no-repeat !important;
+        text-align: center;
+        background-position: center;
+        background-size: contain;
+    }
+
+    .freechatbanner-extra .banner-content {
+        padding-right: 100px;
+        width: 56%;
+    }
+
+    .freechatbanner-extra .btn {
+        width: 328px;
+        height: 60px;
+        text-transform:uppercase;
+        background: #FFD700;
+        border: 1px solid #ECCC1C;
+        box-shadow: 0px 5px 5px #FFD70057;
+        border-radius: 50px;
+        font-size: 24px;
+        font-weight: 700;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 7px auto;
+        transition: 0.45s;
+        color: #000;
+    }
+    .freechatbanner-extra .banner-subheading {
+        font-size: 24px;
+        font-weight: 600;
+        padding: 10px;
+    }
+    .freechatbanner-extra .heading{
+        font-size:36px;
+    }
+    @media(max-width:1198px)
+    {
+        .freechatbanner-extra .banner-image{
+            width:467px;
+        }
+        .freechatbanner-extra .banner-content {
+            padding-right: 50px;
+            width: 54%;
+        }
+        .freechatbanner-extra .heading{
+            font-size:33px;
+        }
+        .freechatbanner-extra .banner-subheading {
+            font-size: 20px;
+        }
+        .freechatbanner-extra .btn{
+            font-size:24px;
+        }
+    }
+    @media(max-width:991px) {
+        .freechatbanner-extra {
+            height: 291.63px;
+            padding-right: 10px;
+        }
+            .freechatbanner-extra .heading {
+                font-size: 21px;
+            }
+        .freechatbanner-extra .banner-content{
+            padding-right:10px;
+        }
+        .freechatbanner-extra .banner-image {
+            width: 340px;
+            height: 291.63px;
+            object-fit: revert;
+        }
+        .freechatbanner-extra .banner-subheading {
+            font-size: 16px;
+
+        }
+        .freechatbanner-extra .btn {
+            font-size: 18px;
+            width: 228px;
+            height: 50px;
+        }
+        .freechatbanner-extra .banner-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: bottom;
+        }
+
+
+    }
+    @media(max-width:767px) {
+        .freechatbanner-extra {
+            height: 257.3px;
+        }
+
+        .freechatbanner-extra .heading {
+            font-size: 20px;
+        }
+
+        .freechatbanner-extra .banner-image {
+            width: 340px;
+            height: 257.3px;
+        }
+    }
+    @media(max-width:575px) {
+        .freechatbanner-extra {
+            height: 197px;
+        }
+
+        .freechatbanner-extra .btn {
+            font-size: 16px;
+            width: 200px;
+            height: 40px;
+        }
+
+        .freechatbanner-extra .heading {
+            font-size: 15px;
+        }
+
+            .freechatbanner-extra .banner-subheading {
+                font-size: 14px;
+                white-space: break-spaces;
+            }
+
+        .freechatbanner-extra .banner-image {
+            width: 237px;
+            height: 197px;
+        }
+    }
+    @media(max-width:400px) {
+        .freechatbanner-extra {
+            height: 165px;
+            padding-right: 0;
+            overflow: hidden;
+        }
+
+            .freechatbanner-extra .btn {
+                font-size: 12px;
+                width: 136px;
+                height: 28px;
+            }
+
+        .freechatbanner-extra .heading {
+            font-size: 13px;
+        }
+        .freechatbanner-extra .banner-content{
+            padding-right:8px;
+        }
+        .freechatbanner-extra .banner-content .p-2{
+            padding:0 !important;
+        }
+            .freechatbanner-extra .banner-subheading {
+                font-size: 12px;
+                white-space: normal;
+                padding: 10px 0;
+            }
+
+        .freechatbanner-extra .banner-image {
+            width: 127px;
+            height: 165px;
+        }
+        .freechatbanner-extra .banner-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            object-position: 4px 36px;
+            scale: 153%;
+        }
+    }
+        .refer-banner {
+            width: 100%;
+            height: 100%;
+            background: #F9E4E1;
+            border-radius: 10px;
+            overflow: hidden;
+            display: flex;
+            align-items: end;
+        }
+
+        /* .refer-banner #animation {
+            height: 347px;
+        }*/
+        @media(max-width:767px) {
+            .refer-banner {
+                height: auto !important
+            }
+        }

@@ -1,0 +1,32 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+
+RewriteRule ^horoscope/daily-horoscope/([a-zA-Z0-9_-]+)$ daily-horoscope.php?name=$1 [NC,L]
+RewriteRule ^horoscope/daily-horoscope$ daily-horoscope.php?name=$1 [NC,L]
+
+RewriteRule ^horoscope/monthly-horoscope/([a-zA-Z0-9_-]+)$ monthly-horoscope.php?name=$1 [NC,L]
+RewriteRule ^horoscope/monthly-horoscope$ monthly-horoscope.php?name=$1 [NC,L]
+
+RewriteRule ^horoscope/yearly-horoscope/([a-zA-Z0-9_-]+)$ yearly-horoscope.php?name=$1 [NC,L]
+RewriteRule ^horoscope/yearly-horoscope$ yearly-horoscope.php?name=$1 [NC,L]
+
+
+RewriteRule ^panchang/$ panchang.php [NC,L]
+RewriteRule ^panchang/today-panchang$ today-panchang.php?date=$1 [NC,L]
+RewriteRule ^panchang/today-panchang/([a-zA-Z0-9_-]+)$ today-panchang.php?date=$1 [NC,L]
+
+RewriteRule ^vrats/$ vrats.php?vrat=$1 [NC,L]
+RewriteRule ^vrats/([a-zA-Z0-9_-]+)/([a-zA-Z0-9_-]+)$ purnima-vrat.php?vrat=$1&year=$2 [NC,L]
+RewriteRule ^vrats/([a-zA-Z0-9_-]+)$ purnima-vrat.php?vrat=$1 [NC,L]
+
+
+RewriteRule ^astrologer/([a-zA-Z0-9_-]+)$ astrologer.php?u_name=$1 [NC,L]
+RewriteRule ^blog/([a-zA-Z0-9_-]+)$ blog.php?u_name=$1 [NC,L]
+RewriteRule ^walletrecharge/([a-zA-Z0-9_-]+)$ walletrecharge.php?u_name=$1 [NC,L]
+
+
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php83___lsphp .php .php8 .phtml
+</IfModule>

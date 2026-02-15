@@ -1,0 +1,1 @@
+<?php include('talk-to-astrologer.php');?>
