@@ -16,11 +16,10 @@ define('SIDEBAR_PATH', BASE_PATH.'/includes/sidebar.php');
 // define('DB_USER', "root");
 // define('DB_PASSWORD', "");
 // define('DB_NAME', "u873411261_jyoti_co");
-
 define('DB_HOST', "localhost");
-define('DB_USER', "u128793493_shubham");
-define('DB_PASSWORD', "Shubhamganwani@2003");
-define('DB_NAME', "u128793493_u873411261_jyo");
+define('DB_USER', "star_user");
+define('DB_PASSWORD', "Star@123456");
+define('DB_NAME', "starconnects_db");
 
 $salt = "$6\$rounds=5000\$anexamplestringforsalt$";
 
